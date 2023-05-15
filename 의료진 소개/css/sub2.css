@@ -1,0 +1,52 @@
+ /* 전체페이지 공통 */
+
+ 
+ #layout-container,#layout-content{width: 1400px; margin: auto; position: relative; box-sizing: border-box;}
+ .inner-doc h2{padding-top: 200px; font-size: 27px; font-weight: 500; color: #7A6890;}
+ .inner-doc strong{font-size: 47px; color: #7A6890; font-weight: 700;}
+ .inner-doc .intro-txt{font-size: 20px; letter-spacing: 2px; padding-top: 10px; padding-bottom: 20px;}
+ 
+ .intro-introduction ul li{margin-top: 46px;}
+ .intro-introduction ul li img{position: relative; bottom: 20px; }
+ .intro-introduction ul li span{font-size: 18px; font-weight: bold; color: #7A6890; position: relative; bottom: 7px; left: 10px;}
+ .intro-introduction ul li i {font-size: 15px; position: relative; bottom: 7px; left: 20px; font-weight: 500;}
+ .main-introduction .tb{width: 624px;height: 140px; text-align: center;  margin-top: 40px;}
+ .main-introduction .tb th{ background: #C3BFE2; height: 35px; color: white;}
+ .main-introduction .tb th, .main-introduction .tb td {  border-top: 1px solid #dcdcdc; vertical-align: middle;  font-size: 13px; border-bottom: 1px solid #dcdcdc;}
+ .main-introduction .tb .w1 { width: 90px; }
+ .main-introduction .tb .w2 { width: 90px; }
+ .main-introduction .tb .w3 { width: 90px; }
+ .main-introduction .tb .w4 { width: 90px; }
+ .main-introduction .tb .w5 { width: 90px; }
+ .main-introduction .tb .w6 { width: 90px; }
+ .main-introduction .tb .w7 { width: 90px; }
+ .main-introduction .tb tr td img {position: relative; top: 3px; right: 4px; }
+ .txt-tip{ color: #C3BFE2; font-size: 14px; margin: 12px 0; padding-left: 5px; font-weight: bold; letter-spacing: px;}
+ .txt-tip i{font-size: 22px; position: relative; top: 3px; right: 3px;} 
+ 
+
+ .inner-doc button {width: 164px; height: 50px;background: #fff; color: #7A6890; font-weight: bold;
+                    margin-left: 100px; margin-top: 40px;  transition: 0.5s;}
+ .inner-doc button:hover{background: #7A6890;border: 1px solid #7A6890; transition: 0.8s;}    
+ .inner-doc button a:hover{color: #fff;}
+ .career-list2 h3 { width: 600px; height: 50px; border-top: 1px solid #C3BFE2; border-bottom:  1px solid #7A6890; margin-top: 200px; 
+            font-size: 25px; font-weight: 500; margin-bottom: 27px; line-height: 2;} 
+ .career-list2 ul li,.career-list3 ul li{margin-bottom: 20px;}     
+ .career-list3 h3{ width: 600px; height: 50px; border-top: 1px solid #C3BFE2; border-bottom:  1px solid #7A6890; margin-top: 80px;
+            font-size: 25px; font-weight: 500; margin-bottom: 27px; line-height: 2;}       
+                    
+ .text-more {position: relative; top: 40px; left: 80px;}
+ .text-more .btn-default{width: 230px; height: 40px; border: 1px solid #000; margin-bottom: 150px; background: #C3BFE2;}
+ 
+ .doc-img {position: relative;}
+  
+  .doc-img img {
+    position: fixed;
+    top: 90px;
+    left: calc(100% - 870px);
+    max-width: 100%;
+  }
+
+ .top {position: fixed; left: 90%; bottom: 0; width: 60px; height: 60px; background: #000; text-align: center; display: none; }
+ .top.on{display: block;}
+ .top i { line-height: 60px; color:#fff; font-size: 30px;}
